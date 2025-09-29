@@ -1,6 +1,6 @@
 <?php
 // estos arrrays actuan como si fuesen la base de datos para poder coger los datos 
-
+/*
     function reellenarCheckbox(){
         $intereses=[
             "sostenibilidad" => "usos sostenibles en el clima",
@@ -15,5 +15,15 @@
             "España","china","italia","japon","croacia","alemania","chile"
         ];
         return $pais;
-    }  
+    }  */
+
+
+        function  reellenarCheckbox(){
+            $array = [
+                ["sostenibilidad","usos sostenibles en el clima"],
+                [ "usabilidad","usar materiales reciclables"],
+                ["electricidad","uso de energias renobables"]
+            ];
+        }
+
 ?>
