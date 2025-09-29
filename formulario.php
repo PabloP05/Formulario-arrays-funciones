@@ -36,9 +36,10 @@
     <p>¿Qué temas te interesan?</p>
     <!--Los bloques de echo son los unicos que no se cambian en la vista, se mantienen siempre-->
     <?php
-        foreach ($intereses as $clave => $value) {
-            echo '<input type="checkbox" value="'.$clave.'" name="interes[]" id="'.$clave.'">';
-            echo '<label for="'.$clave.'">'.$value.'</label><br>';
+        foreach ($intereses => $value) {
+            $i=0;
+                echo '<input type="checkbox" value="'.$value[$i].'" name="interes[]" id="'.$value[$i+1].'">';
+                echo '<label for="'.$value[$i].'">'.$value[$i+1].'</label><br>';
         }
     ?>
 
