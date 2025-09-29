@@ -1,5 +1,5 @@
 <?php
-// prueba 1
+// estos arrrays actuan como si fuesen la base de datos para poder coger los datos 
 
     function reellenarCheckbox(){
         $intereses=[
