@@ -15,11 +15,5 @@
             "España","china","italia","japon","croacia","alemania","chile"
         ];
         return $pais;
-    }
-
-
-
-
-
-    
+    }  
 ?>
