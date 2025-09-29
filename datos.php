@@ -1,4 +1,5 @@
 <?php
+// prueba 1
 
     function reellenarCheckbox(){
         $intereses=[
@@ -16,4 +17,9 @@
         return $pais;
     }
 
+
+
+
+
+    
 ?>
